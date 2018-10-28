@@ -57,7 +57,7 @@
 	</extension>
 
     <extension id="topmenu" point="org.protege.editor.core.application.EditorKitMenuAction">
-        <name value="Example Menu"/>
+        <name value="Change Representation"/>
         <path value="/SlotG-A"/>
         <editorKitId value="any"/>
     </extension>

@@ -49,5 +49,6 @@ public class Metrics extends JPanel {
             count = 1;  // owl:Thing is always there.
         }
         textComponent.setText("Total classes = " + count);
+        textComponent.setText("Testando");
     }
 }

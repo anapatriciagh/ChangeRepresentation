@@ -6,11 +6,38 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry excluding="**/*.java" including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="lib" path="javax.inject-1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="lib" path="jgoodies-looks-2.5.3.jar"/>
+	<classpathentry kind="lib" path="jgoodies-common-1.6.0.jar"/>
+	<classpathentry kind="lib" path="xml-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="sesame-model-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-util-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-api-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-languages-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-datatypes-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-binary-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-n3-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-turtle-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-nquads-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-ntriples-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-rdfjson-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-rdfxml-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-trix-2.7.16.jar"/>
+	<classpathentry kind="lib" path="sesame-rio-trig-2.7.16.jar"/>
+	<classpathentry kind="lib" path="jsonld-java-sesame-0.5.0.jar"/>
+	<classpathentry kind="lib" path="jsonld-java-0.5.0.jar"/>
+	<classpathentry kind="lib" path="httpclient-cache-4.5.1.jar"/>
+	<classpathentry kind="lib" path="httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="semargl-sesame-0.6.1.jar"/>
+	<classpathentry kind="lib" path="semargl-core-0.6.1.jar"/>
+	<classpathentry kind="lib" path="semargl-rdfa-0.6.1.jar"/>
+	<classpathentry kind="lib" path="semargl-rdf-0.6.1.jar"/>
+	<classpathentry kind="lib" path="trove4j-3.0.3.jar"/>
+	<classpathentry kind="lib" path="aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="jsr305-2.0.1.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
